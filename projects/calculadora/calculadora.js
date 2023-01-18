@@ -26,7 +26,7 @@ const checkNum2 = () => {
 
 checkNum2();
 
-const operations = () => {
+export const operations = () => {
   let sum = Number(num1) + Number(num2); // Només la suma no funcionava, juntava els números. per això els converteixo en Number(). no entenc per què...
   if (sum % 1 !== 0) {
     sum = sum.toFixed(3);
@@ -47,7 +47,9 @@ const operations = () => {
     div = div.toFixed(3);
   }
 
-  results.push(sum, sub, prod, div);
+  // Results.push(sum, sub, prod, div);
+
+  return sum;
 };
 
 if (num2 === "" || num2 === null) {
