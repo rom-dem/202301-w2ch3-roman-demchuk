@@ -3,7 +3,7 @@
 }
 
 html {
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 h1,
@@ -19,13 +19,13 @@ h1 {
 
 body {
   margin: 2rem;
-  background: linear-gradient(to right, #325d26, #CDE2C7);
+  background: linear-gradient(to right, #325d26, #cde2c7);
   padding-top: 5rem;
   padding-bottom: 5rem;
 }
 
 main {
-  background-color: #A7C49F;
+  background-color: #a7c49f;
   color: #325d26;
   padding: 0.5rem;
   text-align: center;
@@ -52,21 +52,21 @@ table {
   user-select: none;
 }
 
-button{
+button {
   height: 4rem;
   width: 5rem;
   font-size: 2rem;
   border-radius: 50% 20% / 10% 40%;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  background-color: #61A64F;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #61a64f;
   pointer-events: fill;
 }
 
 .number-buttons button {
-  background-color: #CDE2C7;
+  background-color: #cde2c7;
 }
 
-.double{
+.double {
   width: 10.5rem;
 }
 
@@ -76,7 +76,7 @@ button{
 }
 
 .number-buttons button:hover,
-.operator-buttons button:hover{
+.operator-buttons button:hover {
   background-color: white;
   color: black;
 }
@@ -86,5 +86,5 @@ input {
   width: 26.5rem;
   text-align: right;
   font-size: 2rem;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
